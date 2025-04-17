@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowUp, Discord, Github, Twitter } from 'lucide-react';
+import { ArrowUp, MessageCircle, Github, Twitter } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -45,7 +45,7 @@ const Footer = () => {
               <h3 className="text-white font-medium mb-3">Connect</h3>
               <div className="flex space-x-3 justify-center">
                 <a href="#" className="w-8 h-8 rounded-md bg-minecraft-darkBg flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#5865F2] transition-colors duration-200">
-                  <Discord size={18} />
+                  <MessageCircle size={18} />
                 </a>
                 <a href="#" className="w-8 h-8 rounded-md bg-minecraft-darkBg flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#1DA1F2] transition-colors duration-200">
                   <Twitter size={18} />
